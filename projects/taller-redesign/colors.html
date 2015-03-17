@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Colors</title>
+	<style>
+		div { margin-top: 20px; }
+		section {
+			width: 500px;
+			height: 500px;
+			margin: 20px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		span {
+			display: block;
+			padding: 10px;
+			max-width: 300px;
+		}
+
+		.bg-do--main { background: #F06317; }
+		.bg-do--light { background: #F0915B; }
+		.bg-do--dark { background: #903C13; }
+
+		.bg-say--main { background: #454456; }
+		.bg-say--light { background: #D8D6D6; }
+		.bg-say--dark { background: #2B2B32; }
+
+		.bg-us--main { background: #A02627; }
+		.bg-us--light { background: #E23C57; }
+		.bg-us--dark { background: #571A18; }
+
+		.bg-share--main { background: #AFD67B; }
+		.bg-share--light { background: #D6EBBB; }
+		.bg-share--dark { background: #6A7D51; }
+
+		.bg {
+			border: 1px solid #CFCCCC;
+			border-radius: 3px;
+		}
+
+		.bg--light {
+			background: #FFFFFF;
+		}
+
+		.bg--dark {
+			background: #D8D6D6;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div>
+		<span class="bg-do--light">/* light - fazemos: */</span>
+		<span class="bg-do--main">/* main - fazemos: */</span>
+		<span class="bg-do--dark">/* dark - fazemos: */</span>	
+	</div>
+
+	<div>
+		<span class="bg-say--light">/* light - contato: */</span>
+		<span class="bg-say--main">/* main - contato: */</span>
+		<span class="bg-say--dark">/* dark - contato: */</span>	
+	</div>
+
+	<div>
+		<span class="bg-us--light">/* light - somos: */</span>
+		<span class="bg-us--main">/* main - somos: */</span>
+		<span class="bg-us--dark">/* dark - somos: */</span>	
+	</div>
+
+	<div>
+		<span class="bg-share--light">/* light - compartilhamos: */</span>
+		<span class="bg-share--main">/* main - compartilhamos: */</span>
+		<span class="bg-share--dark">/* dark - compartilhamos: */</span>	
+	</div>
+
+	<section class="bg bg--light">
+		<h2>bg bg--light</h2>
+	</section>
+	<section class="bg bg--dark">
+		<h2>bg bg--dark</h2>
+	</section>
+
+</body>
+</html>
